@@ -1,0 +1,23 @@
+body {
+    background-image: url('img/fundo.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-size: 110%;
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+@font-face {
+    font-family: sans-serif;
+    src: url(font/IBMPlexSansJP-Light.ttf);
+}
+
+p, div{
+    font-family: sans-serif;
+}
+
+div{
+    display: flex;
+}
