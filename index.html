@@ -11,26 +11,27 @@
 <body>
     <header>
         <div>
-            <img src="" alt="">
+            <img class="sol" src="img/sol.png" alt="">
         </div>
         <div>
-            <p>Bem-Vinda Letícia</p>
-            <p>Esse é o seu Controle Finaceiro</p>
+            <p class="text">Bem-Vinda Letícia </p> 
+                <p>Esse é o seu Controle Finaceiro!</p>
+          
         </div>
     </header>
     <main>
         <div class="resumo">
-            <div>
+            <div class="box">
                 Entradas: R$
                 <span class="entradas">0.00</span>
             </div>
 
-            <div>
+            <div class="box">
                 saídas: R$
                 <span class="saidas">0.00</span>
             </div>
 
-            <div>
+            <div class="box">
                 Total: R$
                 <span class="total">0.00</span>
             </div>
@@ -50,27 +51,28 @@
             <div class="divTipo">
                 <label for="tipo">Tipo</label>
                 <select id="tipo">
-                <option>Entrada</option>
-                <option>Saída</option>
-            </select>
+                    <option>Entrada</option>
+                    <option>Saída</option>
+                </select>
+
+                <button id="btnNovo">Incluir</button>
             </div>
-            <button id="btnNovo">Incluir</button>
         </div>
 
-       <div class="divTabela">
-        <table>
-            <thead>
-                <tr>
-                    <th>Descrição</th>
-                    <th class="colmnValor">Valor</th>
-                    <th class="columnTipo">Tipo</th>
-                    <th class="columnAcao"></th>
+        <div class="divTabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="desc">Descrição</th>
+                        <th class="colmnValor">Valor</th>
+                        <th class="columnTipo">Tipo</th>
+                        <th class="columnAcao"></th>
 
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-       </div>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
     </main>
 
     <script src="main.js"></script>
@@ -86,4 +88,5 @@
 
 
 </body>
+
 </html>

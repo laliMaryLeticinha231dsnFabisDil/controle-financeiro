@@ -1,23 +1,95 @@
 body {
-    background-image: url('img/fundo.png');
-    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-image: url('img/fundo-ofic.png');
+    background-size: cover;
     background-size: 110%;
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-
+    background-repeat: no-repeat;
     align-items: center;
+
+
     text-align: center;
     justify-content: center;
 
 }
+
 @font-face {
     font-family: sans-serif;
     src: url(font/IBMPlexSansJP-Light.ttf);
 }
 
-p, div{
+
+/* FAZENDO CSS DE ENTRADA, SAIDA, TOTAL */
+
+p,
+div {
     font-family: sans-serif;
 }
 
-div{
-    display: flex;
+.box {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 4vw;
+    width: 30vh;
+    height: 8vh;
+    border-radius: 9px;
+    margin-top: -8vh;
 }
+
+
+
+/* FAZENDO CSS DE TIPO VALOR E DESCRIÇAÕ  OS INPUTS PARA DIGITAR*/
+
+input {
+    background-color: rgba(252, 209, 188, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border: 0 none;
+    width: 230px;
+    outline: 0;
+    border-bottom: 2px solid black;
+    height: 40px;
+}
+
+.divDesc, .divValor{  /* INPUT DIVDESC = DESCRIÇÃO   DIVVALOR = VALOR */
+    display: inline-block;
+    margin: 4vh;
+}
+
+/* CSS DOS BOOTÕES */
+
+#btnNovo, #tipo{
+    width: 30vh;
+    height: 5vh;
+    border-radius: 9px;
+    background-color: rgba(247, 219, 182, 0.64);
+    color: white;
+    border: 0 none;
+    display: inline-block;
+    margin: 4vh;
+}
+
+
+/* COLUNA DE DESCRIÇÃO, VALOR E TIPO */
+
+
+
+table {
+    border-collapse: separate;
+ border-spacing: 20px;
+    margin-left: 84vh;
+  }
+
+  th {
+   
+    padding: 8px; /* Adiciona espaço interno dentro de cada th */
+  }
+
+
+
+  /* ARRUMANDO HEADER E IMAGEM DO SOL */
+  header{
+    display: flex;
+    margin-left: 70vh;
+  }
+
+  .text{
+    margin-top: 8vh
+  }
