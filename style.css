@@ -26,12 +26,13 @@ div {
 
 .box {
     display: inline-block;
-    border: 2px solid black;
+    border: 2px solid rgba(247, 219, 182, 0.64);
     margin: 4vw;
     width: 30vh;
     height: 8vh;
     border-radius: 9px;
     margin-top: -8vh;
+    background-color:rgba(247, 219, 182, 0.64);
 }
 
 
@@ -39,12 +40,12 @@ div {
 /* FAZENDO CSS DE TIPO VALOR E DESCRIÇAÕ  OS INPUTS PARA DIGITAR*/
 
 input {
-    background-color: rgba(252, 209, 188, 0);
+    background-color: rgba(255, 255, 255, 0);
     border: 1px solid rgba(0, 0, 0, 0);
     border: 0 none;
     width: 230px;
     outline: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(247, 219, 182, 0.64);
     height: 40px;
 }
 
